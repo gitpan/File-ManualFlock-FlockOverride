@@ -7,7 +7,7 @@
 
 use Test;
 BEGIN { plan tests => 1 };
-use File::ManualFlock::FlockOverride;
+use File::ManualFlock::Constants;
 ok(1); # If we made it this far, we're ok.
 
 #########################
